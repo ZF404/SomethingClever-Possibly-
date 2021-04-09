@@ -12,5 +12,9 @@
            android:layout_height="wrap_content"
            android:text="Fragment 1 Text" />
 
-</LinearLayout>
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
