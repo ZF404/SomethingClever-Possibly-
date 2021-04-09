@@ -1,19 +1,19 @@
 package com.example.easyenergysaver;
 
 public class HomeDataUnit {
-    private int name;
+    private String name;
     private String data;
 
-    public HomeDataUnit(int name, String data) {
+    public HomeDataUnit(String name, String data) {
         this.name = name;
         this.data = data;
     }
 
-    public int getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(int name) {
+    public void setName(String name) {
         this.name = name;
     }
 
