@@ -24,8 +24,10 @@ public class Fragment1 extends Fragment {
         view = inflater.inflate(R.layout.fragment1_layout, container, false);
 
         mListView = (ListView) view.findViewById(R.id.homeList);
-        ArrayList<HomeDataUnit> listOfElements =  new ArrayList<>(6);
+        ArrayList<HomeDataUnit> listOfElements =  new ArrayList<>(8);
 
+        listOfElements.add(new HomeDataUnit("Null", "Null"));
+        listOfElements.add(new HomeDataUnit("Null", "Null"));
         listOfElements.add(new HomeDataUnit("Null", "Null"));
         listOfElements.add(new HomeDataUnit("Null", "Null"));
         listOfElements.add(new HomeDataUnit("Null", "Null"));
