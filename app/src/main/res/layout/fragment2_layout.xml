@@ -14,6 +14,13 @@
             android:id="@+id/eletcticHeating"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:drawableBottom="@color/black"
+            android:drawableTop="@color/black"
+            android:drawableLeft="@color/black"
+            android:drawableEnd="@color/black"
+            android:background="@drawable/my_border"
             android:text="Ogrzewanie elektryczne" />
 
         <Switch
@@ -21,6 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="true"
+            android:background="@drawable/my_border"
+            android:textStyle="bold"
+            android:textSize="15sp"
             android:fadeScrollbars="false"
             android:text="Ogrzewanie wody" />
     </LinearLayout>

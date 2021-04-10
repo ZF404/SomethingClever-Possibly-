@@ -11,26 +11,38 @@
 
         <CheckBox
             android:id="@+id/stateA"
+            android:textStyle="bold"
+            android:textSize="15dp"
             android:layout_width="match_parent"
+            android:background="@drawable/my_border"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="Operating mode A" />
 
         <CheckBox
             android:id="@+id/stateB"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/my_border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="onCheckboxClicked" />
+            android:text="Operating mode B" />
 
         <CheckBox
             android:id="@+id/stateC"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/my_border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="Operating mode C" />
 
         <CheckBox
             android:id="@+id/stateD"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/my_border"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CheckBox" />
+            android:text="Operating mode D" />
     </LinearLayout>
 </RelativeLayout>
