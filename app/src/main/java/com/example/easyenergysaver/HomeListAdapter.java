@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class HomeListAdapter extends ArrayAdapter<HomeDataUnit> {
 
-    Context mContext;
+    private Context mContext;
     int mResource;
 
     public HomeListAdapter(Context context, int resource, ArrayList<HomeDataUnit> objects) {
@@ -27,7 +27,7 @@ public class HomeListAdapter extends ArrayAdapter<HomeDataUnit> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-    //Get necessary data
+
         String name = getItem(position).getName();
         String content = getItem(position).getData();
 
