@@ -19,6 +19,7 @@ public class Fragment4 extends Fragment {
     public int varDur;
     View view;
     Button submit, reset;
+    String strynk = "";
     EditText textInput;
 
     @Nullable
@@ -27,8 +28,8 @@ public class Fragment4 extends Fragment {
         view = inflater.inflate(R.layout.fragment4_layout, container, false);
 
         textInput = (EditText) view.findViewById(R.id.numberInput);
-        String strynk = textInput.getText().toString();
-        varDur = Integer.valueOf(strynk);
+        strynk = textInput.getText().toString();
+
 
         submit = (Button) view.findViewById(R.id.submitButton);
         reset = (Button) view.findViewById(R.id.resetButton);
