@@ -8,14 +8,18 @@
     <TextView
         android:id="@+id/objectName"
         android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_height="wrap_content"
         android:layout_weight="2"
         android:text="TextView" />
 
     <TextView
         android:id="@+id/objectContent"
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
+        android:textStyle="bold"
         android:text="TextView" />
 </LinearLayout>

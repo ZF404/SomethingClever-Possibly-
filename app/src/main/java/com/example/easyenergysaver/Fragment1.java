@@ -26,14 +26,14 @@ public class Fragment1 extends Fragment {
         mListView = (ListView) view.findViewById(R.id.homeList);
         ArrayList<HomeDataUnit> listOfElements =  new ArrayList<>(8);
 
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
-        listOfElements.add(new HomeDataUnit("Null", "Null"));
+        listOfElements.add(new HomeDataUnit("Temperatura w domu:", "Null"));
+        listOfElements.add(new HomeDataUnit("Temperatura na zewnątrz:", "Null"));
+        listOfElements.add(new HomeDataUnit("Nasłonecznenie:", "Null"));
+        listOfElements.add(new HomeDataUnit("Aktualna suma pobieranej energii:", "Null"));
+        listOfElements.add(new HomeDataUnit("Energia elektryczna dotychczas oddana do sieci:", "Null"));
+        listOfElements.add(new HomeDataUnit("Energia pograna dotychczas z sieci:", "Null"));
+        listOfElements.add(new HomeDataUnit("Stan naładowania magazynu energii:", "Null"));
+        listOfElements.add(new HomeDataUnit("Aktualnie wybrany tryb pracy: ", "Null"));
 
         adapter = new HomeListAdapter(getContext(), R.layout.home_adapter_view_layout, listOfElements);
         mListView.setAdapter(adapter);
